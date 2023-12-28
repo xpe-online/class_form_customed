@@ -270,7 +270,7 @@ class Calender:
             self.move([self.window], [self.x * 2 + onlab.winfo_reqwidth()],
                       [self.y * 3 + oncl.winfo_reqheight() + onlab.winfo_reqheight()],
                       [self.xroot + xe - (onlab.winfo_reqwidth() / 2)], [self.yroot])
-            sleep(5)
+            sleep(3)
             # 恢复动画
             self.move([self.window], [self.x * 2 + oncl.winfo_reqwidth()], [self.y * 2 + oncl.winfo_reqheight()],
                       [self.xroot + xe], [self.yroot])
